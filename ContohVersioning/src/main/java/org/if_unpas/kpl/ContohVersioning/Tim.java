@@ -1,7 +1,18 @@
 package org.if_unpas.kpl.ContohVersioning;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Tim {
-	public static void main(String[] args) {
-		System.out.println("test2");
+	private String nama;
+	private List<Pemain> pemaintInti = new ArrayList<Pemain>();
+	
+	public Tim() {
+		nama = "";
 	}
+
+	public Tim(String nama) {
+		this.nama = nama;
+	}
+
 }
